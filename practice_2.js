@@ -14,11 +14,11 @@
 
 // let res = [] || 0 || true;
 // console.log(res)
-
+// 
 // if([]){
 // console.log("yes")
 // }
-
+// 
 
 // console.log(Promise.resolve(5))//ans is promise is fullfilled : 5;
 
