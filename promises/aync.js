@@ -53,3 +53,37 @@ const main = async ()=> {
 
 
 main();
+
+
+
+// load scr
+// const loadScr = async (src) => {
+    
+//     let promises = new Promise ((resolve, reject) => {
+//        let script = document.createElement("script");
+//         script.type = "type/javascript";
+//         script.src = src;
+//        document.body.append(script);
+
+//        script.onload =  () => {
+//            resolve(1)
+//        }
+//        script.onerror = () => {
+//            reject(0)
+//        }
+//     })
+
+
+//     let promise = await promises;
+//     console.warn(promise)
+// } 
+
+
+// let fn = async (src) => {
+//     let promi = await  loadScr("https://www.google.com")
+//     console.warn(promi)
+// }
+// fn()
+
+
+
