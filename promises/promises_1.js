@@ -35,10 +35,14 @@
 //    }
 //  },1000)
 
-let promise = new Promise(function(resolve, reject){
-        alert("I am an alert in promise")
-        resolve(56)
-    })
-    console.warn(promise)
+// let promise = new Promise(function(resolve, reject){
+//         alert("I am an alert in promise")
+//         resolve(56)
+//     })
+//     console.warn(promise)
+
+
+
+
 
  
