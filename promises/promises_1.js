@@ -21,16 +21,24 @@
 // callback1 must be called only one time, after 2 seconds.
 // callback2 must be called three times with an interval of 1 second.
 
-setTimeout(() => {
-    console.log("callback1")
+// setTimeout(() => {
+//     console.log("callback1")
 
-}, 2000)
+// }, 2000)
 
-let count = 0;
-let sett =  setInterval(() => {
-    count += 1;
-    console.log("callback2")
-   if(count === 3){
-       clearInterval(sett);
-   }
- },1000)
+// let count = 0;
+// let sett =  setInterval(() => {
+//     count += 1;
+//     console.log("callback2")
+//    if(count === 3){
+//        clearInterval(sett);
+//    }
+//  },1000)
+
+let promise = new Promise(function(resolve, reject){
+        alert("I am an alert in promise")
+        resolve(56)
+    })
+    console.warn(promise)
+
+ 
