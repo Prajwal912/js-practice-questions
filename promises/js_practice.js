@@ -74,38 +74,38 @@
 
 
 //currying using bind
-let multiply = (x,y) => {
- console.warn(x*y);
-}
+// let multiply = (x,y) => {
+//  console.warn(x*y);
+// }
 
-let multiBind = multiply.bind(this, 2)
-multiBind(4)
+// let multiBind = multiply.bind(this, 2)
+// multiBind(4)
 
 
-//currying using clousers
+// //currying using clousers
 
-let add = (z) => {
-  return function(a){
-    console.warn(z+a)
-  }
-}
+// let add = (z) => {
+//   return function(a){
+//     console.warn(z+a)
+//   }
+// }
 
-let addClousers = add(2);
-addClousers(90)
+// let addClousers = add(2);
+// addClousers(90)
 
 //spread operator and rest parameters are used to extract the elements easily
 //spread operator
-let arr1 = [1,2,3,4];
-let arr2 = ["a","b","c","d"];
+// let arr1 = [1,2,3,4];
+// let arr2 = ["a","b","c","d"];
 
-console.warn(...arr1,...arr2);
+// console.warn(...arr1,...arr2);
 
-let obj1 = {
-    fName:"prajwal",
-    lName:"shah"
-}
-let obj2 ={ ...obj1}
-console.warn(obj2)
+// let obj1 = {
+//     fName:"prajwal",
+//     lName:"shah"
+// }
+// let obj2 ={ ...obj1}
+// console.warn(obj2)
 
 //rest parameters : taking all the parameters by using just ... in the (...args)
 
@@ -114,22 +114,46 @@ console.warn(obj2)
 
 // object destructuring
 
-const  obj = {
-    name:"prajwal",
-    age:"21",
-    gender:"male"
-} 
+// const  obj = {
+//     name:"prajwal",
+//     age:"21",
+//     gender:"male"
+// } 
 
-const {name:name,age:age,gender:gender} = obj
+// const {name:name,age:age,gender:gender} = obj
 
-console.warn(name,age,gender)
+// console.warn(name,age,gender)
 
-//array destructuring
+// //array destructuring
 
-const arr = [1,2,3,4,5];
-const [fir,sec,thir,four,fif] = arr;
-console.warn(fir,sec,thir,four,fif)
+// const arr = [1,2,3,4,5];
+// const [fir,sec,thir,four,fif] = arr;
+// console.warn(fir,sec,thir,four,fif)
 
+
+//recursion
+
+// function add(number) {
+//   if (number <= 0) {
+//     return 0;
+//   } else {
+//     return number + add(number - 1);
+//   }
+// }
+// console.warn(add(3)) 
+
+
+// for(var i = 0; i<3; i++){
+//   setTimeout(() => {
+//     console.warn(i)
+//   }, 1);
+// }
+
+// for(let i = 0; i<3; i++){
+//   setTimeout(() => {
+//     console.warn(i)
+//   }, 1);
+// }
 
 
 
