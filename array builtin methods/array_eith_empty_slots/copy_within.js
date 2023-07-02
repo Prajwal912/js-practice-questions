@@ -8,4 +8,6 @@
 //  console.log(arr1.copyWithin(1,4))//1 position pe 4 index ki val insert kr di
 //  console.log(arr1.copyWithin(4,1))//1 position pe 4 index ki val insert kr di
 //  console.log(arr1.copyWithin(2,3))//2 position pe 3 index ki val insert kr di
- console.log(arr1.copyWithin(2,1,5))//
+//  console.log(arr1.copyWithin(2,1,5))//2 is the starting value and index 1 se index 5 tak copy krnas hai 
+//  console.log(arr1.copyWithin(1,4,5))//2 is the starting value and index 4 se index 5 tak copy krnas hai  and last wala count nhi hota hai
+ console.log(arr1.copyWithin(3,4,7))//2 is the starting value and index 1 se index 5 tak copy krnas hai 
