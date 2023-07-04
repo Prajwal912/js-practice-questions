@@ -9,7 +9,7 @@ const arr4 = [1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]];
 console.log(arr4.flat(Infinity))
 
 //it also removes the empty slots
-const array2 = [1, , 3, ["a", , ["d", , "e"]]];
+const array2 = [1, , 3, ["a", , ["d", " " , "e"]]];
 console.log(array2.flat(2))
 
 
