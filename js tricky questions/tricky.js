@@ -2,12 +2,12 @@
 // var b = 23;
 // console.log(a === b);
 
-// let Employee = {
-//   company: "XYZ",
-// };
+let Employee = {
+  company: "XYZ",
+};
 // //create creates a new obj with same prototype object or say shallow copy
-// let emp = Object.create(Employee);
-// delete emp.company;
+let emp = Object.create(Employee);
+delete emp.company;
 // console.log(emp.company);
 // console.log(emp.hasOwnProperty("company"));
 
@@ -36,10 +36,10 @@ let unique = new Set(data);
 // console.log(x)
 
 //value swapping
-let z = 20;
-let a = 350;
+// let z = 20;
+// let a = 350;
 
-[z, a] = [a, z];
+// [z, a] = [a, z];
 // console.log(z, "=Z")
 // console.log(a, "=A")
 
@@ -103,7 +103,10 @@ function outest() {
   }
   return outer;
 }
-let clouse = outest()("outer func argument");
+// let a = 60;
+
+let clouse = outest()("outer func argument");//without passing argument
+// let clouse = outest("hey this is c")("outer func argument"); passing argument with c
 clouse();
 
 //advantage of clousure
