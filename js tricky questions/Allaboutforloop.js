@@ -157,4 +157,22 @@
 
 
 
+// let i,k,l
+// let j = 1;
+
+// for(i=1; i<=5 ; i++){
+//     let row = ""
+
+//     for(k=5; k>=i; k--){
+//       row += " ";
+//     }
+
+//       for(l=1; l<=j; l++){
+//         row += "*";
+//       }
+
+//       j+=2;
+//       console.log(row)
+// }
+
 
