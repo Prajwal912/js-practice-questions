@@ -16,6 +16,12 @@
 // //  console.log(`${property}`)
 // }
 
+// *
+// **
+// ***
+// ****
+// *****
+
 // for (let i = 1; i<=5; i++) {
 //   console.log('*'.repeat(i))  
 // }
@@ -34,13 +40,20 @@
 // ***
 // **
 // *
-for (let i = 1; i <= 5; i++) {
-    let row = "";
-    for (let j = 5; j >= i; j--) {
-      row += "*"
-    }
-    console.log(row)
-  }
+
+// for(let i = 5; i>=1; i--){
+//   console.log('*'.repeat(i))
+// }
+
+
+// for (let i = 1; i <= 5; i++) {
+//     let row = "";
+//     for (let j = 5; j >= i; j--) {
+//       row += "*"
+//     }
+//     console.log(row)
+//   }
+
   
 
 
