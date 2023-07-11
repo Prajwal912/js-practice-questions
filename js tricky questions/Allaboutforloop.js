@@ -54,6 +54,66 @@
 //     console.log(row)
 //   }
 
+//using incremented way
+// for(let i = 1; i<=6; i++){
+// let row = ""
+//     for(let j = 1; j<=6-i; j++){
+//           row += "*"
+//     }
+//     console.log(row)
+// }
+
+
+//      *
+//     **
+//    ***
+//   ****
+//  *****  
+
+// for(let i = 1; i<=5; i++){
+//     let row = "";
+
+// for(let k = 4; k>=i; k--){
+//     //  document.write("&nbsp;&nbsp;") 
+//     row+= " " 
+// }
+
+//     for(let j = 1; j<=i; j++){
+//         row+= "*"
+//         // document.write("*") 
+//     }
+//     // document.write("<br/>") 
+//   console.log(row)
+// }
+
+
+////////////////////
+// let i,j,k;
+// for(let i=1; i<=5; i++){
+//     let row = "";
+    
+//     for(let k=1; k<=5-i; k++){
+//         row += " "
+//     }
+//     for(let j=1; j<=i; j++){
+//         row+= "*"
+//     }
+//     console.log(row)
+// }
+
+// let i,j,k
+// for( i = 1; i<=5; i++){
+//     let row = ""
+
+//     for(k = 1; k<=i; k++){
+//         row += " "
+//     }
+
+//     for(j = 5; j>=i; j--){
+//         row += "*"
+//     }
+//     console.log(row)
+// }
   
 
 
@@ -67,6 +127,33 @@
 //   console.log(row)
 // }
 
+
+//      *
+//     ** *
+//    *** **
+//   **** ***
+//  ***** ****  
+
+// let i,j,k,l;
+
+// for(i=1; i<=5; i++){
+//     let row = ""
+
+//     for(k=5; k>=i; k--){
+//       row += " ";
+//     }
+
+//     for(j=1; j<=i; j++){
+//         row += "*";
+//       }
+
+//       for(l=2; l<=i; l++){
+//         row += "*";
+//       }
+
+
+//       console.log(row)
+// }
 
 
 
