@@ -23,7 +23,7 @@ let sum = data.reduce((x, y) => x + y);
 //remove duplicate val
 let unique = new Set(data);
 //converting the object to array using destructuring
-// console.log([...unique])
+console.log([...unique])
 
 // , operator
 // let x =10;
