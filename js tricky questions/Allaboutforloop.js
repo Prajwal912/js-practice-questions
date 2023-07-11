@@ -213,3 +213,29 @@
 //     star+=2
 // }
 
+// let i,j,k
+// let star=5
+
+// for(k=1; k<=5; k++){
+// let row = '';
+
+//     for(j=1; j<=k; j++){
+//        row += " "
+//     }
+//     for(i=1; i<=star; i++){
+//         row += "*"
+//     }
+
+//     console.log(row)
+//     star-=2
+// }
+
+
+
+// let star=1
+// let row = ""
+// for(i=9; i>=star; i--){
+//     row += "*"
+// }
+// console.log(row)
+// star+=2
