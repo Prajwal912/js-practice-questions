@@ -176,3 +176,22 @@
 // }
 
 
+// let i,k,l,j;
+
+// for(l=1; l<=5; l++){
+//     let row = "";
+
+//     for(i=1; i<=l; i++){
+//        row += " "
+//     }
+
+//     for(j=5; j>=l; j--){
+//         row += "*"
+//      }
+
+//      for(j=3; j>=l; j--){
+//         row += "*"
+//      }
+//      console.log(row)
+// }
+
