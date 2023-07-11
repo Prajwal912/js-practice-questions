@@ -195,3 +195,21 @@
 //      console.log(row)
 // }
 
+
+// let i,j,k
+// let star=1
+
+// for(k=1; k<=5; k++){
+// let row = '';
+
+//     for(j=1; j<=k; j++){
+//        row += " "
+//     }
+//     for(i=5; i>=star; i--){
+//         row += "*"
+//     }
+
+//     console.log(row)
+//     star+=2
+// }
+
