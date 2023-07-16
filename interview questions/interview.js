@@ -103,8 +103,8 @@ let friends = [{
 
 
 //que 6: longest name
-let arr = ["Geek", "Geeks", "Geeksfor",
-  "GeeksforGeek", "GeeksforGeeks"];
+// let arr = ["Geek", "Geeks", "Geeksfor",
+//   "GeeksforGeek", "GeeksforGeeks"];
 
 
 // let num = [];
