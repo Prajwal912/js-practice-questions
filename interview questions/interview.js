@@ -1,31 +1,41 @@
 //move the zero to end of an array
 
-let arr = [1, 0, 2, 0, 3, 0, 4, 5, 0, 6];
+// let arr = [12, 0, 29, 0, 34, 0, 4, 5, 0, 86];
 //by using sort method
-
+// let sorting = arr.sort((a,_) => {
+//  if(a==0){
+//     return 1
+//  }else if (a!==0){
+//   return -1
+//  }else{
+//   return 0
+//  }
+// }
+// )
+// console.log(arr)
 
 
 //////////////////////////////////////////////////////////////////
 //nonZeroCount is there to track the pos of an ele in an array
 // let nonZeroCount= 0;
 
-// // console.log(arr.length)
+// // // console.log(arr.length)
 // for (let i = 0; i < arr.length; i++) {
 
-//if inside array non zero ele are there
+// // if inside array non zero ele are there
 // if (arr[i] !== 0 ) {
-
+//   console.log(arr[nonZeroCount])
 //     //if in an array non zero eles are there then put in in same pos and if ele is zeo then nonZeroCount++
 //     arr[nonZeroCount] = arr[i]
 //     //jaise hi zero aata hai nonZeroCount++ hota hai and  the non zero ele are replaced by the zero ele after nonZeroCount++
 //     // console.log(nonZeroCount++)
-//     nonZeroCount++
+//     // nonZeroCount++
 //         // console.log(arr.length)
 //     }
 // }
-// now in an array all the non zero are moved to the begining but the spaces are left for zero 
-//this loop will add the zero in the remaining part of the array
-// i< arr.length ======= [1, 2, 4, 3, 5] < eight  but the length is eight so to add the remaining zero we can use loop again
+// // now in an array all the non zero are moved to the begining but the spaces are left for zero 
+// // this loop will add the zero in the remaining part of the array
+// // i< arr.length ======= [1, 2, 4, 3, 5] < eight  but the length is eight so to add the remaining zero we can use loop again
 // for (let i = nonZeroCount; i < arr.length; i++) {
 //     //whenever we have to set the val in any variable then use only one =
 //  arr[i] = 0
@@ -155,11 +165,36 @@ let friends = [{
 
 
     //que: 3  missing number of an array
-    // let arr = [2,3,6,9];
+//     let arr = [2,3,6,9];
 //   let miss = [];
 // let mini = Math.min(...arr)
 // let maxi = Math.max(...arr)
 
+//with includes two diffrent ways
+
+//first
+// for(let i=mini; i<maxi; i++){
+//       // console.log(i)// val in an array
+//       // console.log(arr.indexOf(i))//indexing
+//        if(!arr.includes(i)){
+//          miss.push(i)
+//        }
+//      }
+//      console.log(miss)
+
+//second
+// for(let i=mini; i<maxi; i++){
+//       // console.log(i)// val in an array
+//       // console.log(arr.indexOf(i))//indexing
+//        if(!miss.includes(arr)){
+//          miss.push(i)
+//        }
+//      }
+//      console.log(miss)
+
+
+
+///////////////////////////////////////////////////////////////////
 // //loop is starting from 2 and ends on 9 so it iterates all
 //    for(let i=mini; i<maxi; i++){
 //     // console.log(i)// val in an array
@@ -190,6 +225,83 @@ let friends = [{
 //   }
 // }
 // console.log(str)
+
+/////
+// let x=["a","b","c","a","d","c","a"]
+
+//   let obj={}
+//   x.map((item)=>{
+//     if(obj.hasOwnProperty(item)){
+//       obj[item]+=1
+//     }else{
+//       obj[item]=1
+//     }
+//     console.log(obj)
+//   })
+////////////////////////////////
+
+
+// const arr = [
+//   [2, 4, 6, 98, 111],
+//   [123, 45, 78, 90, 672],
+//   [565, 878, 41, 23, 56],
+//   [21, 4, 3, 5, 6, 90]
+// ];
+
+// let newArr = [];
+
+// for (let i = 0; i < arr.length; i++) {
+//   let ln = arr[i][0];
+//   // console.log(ln);
+//   for (let j = 0; j < arr[i].length; j++) {
+//     for (let k = 1; k < arr[i].length; k++) {
+//       // console.log(arr[i][k])
+//       if (arr[i][k] > arr[i][j]) {
+//         //arrayone[j]arrayone[i]
+//         ln = arr[i][k];
+//       }
+//     }
+//   }
+//   newArr.push(ln);
+// }
+// console.log(newArr);
+// let array = [21, 4, 3, 5, 6, 90];
+// let larArr = [];
+// let ln = array[0];
+// for (let i = 0; i < array.length; i++) {
+//   for (let j = 1; j < array.length; j++) {
+//     if (array[j] > array[i]) {
+//       ln = array[j];
+//     }
+//   }
+// }
+
+// //i=o j=1 21 4  j=2 ,3
+// console.log(ln);
+
+
+// const multidimensionalArray = [[1, 2], [3, 4], [5, 6]];
+
+// // let newarr = multidimensionalArray.flatMap(Infinity => Infinity)
+// // let newarr = multidimensionalArray.flat()
+// // let newarr = [].concat(...multidimensionalArray)
+// // let newarr = multidimensionalArray.reduce((acc, curVal) => {
+// //   return acc.concat(curVal)
+// // },[])
+// // let newarr = [...multidimensionalArray.flat()]
+
+// console.log(newarr);
+
+//difference
+const arr = [4, 2, 6, 9, 7];
+const arr2 = [2, 7, 9];
+let newArr = []
+for (const a of arr) {
+  if (!arr2.includes(a)) {
+    newArr.push(a)
+  }
+}
+console.log(newArr)
 
 
 
