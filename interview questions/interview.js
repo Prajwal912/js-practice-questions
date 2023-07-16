@@ -1,6 +1,11 @@
 //move the zero to end of an array
 
-// let arr = [1, 0, 2, 0, 3, 0, 4, 5, 0, 6];
+let arr = [1, 0, 2, 0, 3, 0, 4, 5, 0, 6];
+//by using sort method
+
+
+
+//////////////////////////////////////////////////////////////////
 //nonZeroCount is there to track the pos of an ele in an array
 // let nonZeroCount= 0;
 
@@ -59,6 +64,11 @@ let friends = [{
 
 // let arr = [1, 2, 3, 4];
 
+// let res = arr.filter((_, ind) => 
+//   ind%2 === 0 
+// )
+// console.log(res)
+
 // for(let i =0; i<arr.length; i+=2){
 //   console.log(arr[i])
 // }
@@ -67,6 +77,17 @@ let friends = [{
 //que 5: second larget number
 
 // let arr = [12, 35, 1, 10, 34, 1, 34];
+
+// let lar = Math.max(...arr)
+// // console.log(lar)
+
+// let Slar = -1;
+// for (const i of arr) {
+//    i<lar && i>Slar ? Slar = i : console.log();
+// }
+// console.log(Slar)
+
+
 
 // let largest = 0;
 // //largest val
@@ -106,6 +127,13 @@ let friends = [{
 // let arr = ["Geek", "Geeks", "Geeksfor",
 //   "GeeksforGeek", "GeeksforGeeks"];
 
+// let ar = []
+//   arr.filter((val) => {
+//      ar.push(val.length)
+//   })
+//   let res = Math.max(...ar)
+//   console.log(arr[ar.indexOf(res)])
+
 
 // let num = [];
 // arr.filter((val, ind) => {
@@ -125,8 +153,8 @@ let friends = [{
   
 //   Longest("he viciouslyghghg prajwalshahheythis bayonetedm the straw dummy")
 
-    //que: 3  missing number of an array
 
+    //que: 3  missing number of an array
     // let arr = [2,3,6,9];
 //   let miss = [];
 // let mini = Math.min(...arr)
@@ -144,7 +172,7 @@ let friends = [{
   //  console.log(miss)
 
 
-
+//duplicate remove
 // const arr = [1,4,2,3,1,4,5,6,7,8,1,7,6]
 
 // console.log([...new Set(arr)])
@@ -152,15 +180,16 @@ let friends = [{
 // console.log(arr.filter((item,index)=>
 // arr.indexOf(item)==index)
 // )
-// let newArr =[]
-// for(let i=0;i<arr.length;i++){
-//   if(!newArr.includes(arr[i])){
-//         // console.log(!newArr.includes(arr[i]))
-//         newArr.push(arr[i])
-//       }
-// }
-// console.log(newArr)
 
+// let str = [];
+
+// for (let i = 0; i < arr.length; i++) {
+//   // console.log(arr[i])
+//   if (!str.includes(arr[i])) {
+//      str.push(arr[i])
+//   }
+// }
+// console.log(str)
 
 
 
