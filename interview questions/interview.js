@@ -160,11 +160,11 @@ let friends = [{
 //   )
 //   console.log(long[0])
 //   }
-  
+
 //   Longest("he viciouslyghghg prajwalshahheythis bayonetedm the straw dummy")
 
 
-    //que: 3  missing number of an array
+//que: 3  missing number of an array
 //     let arr = [2,3,6,9];
 //   let miss = [];
 // let mini = Math.min(...arr)
@@ -204,7 +204,7 @@ let friends = [{
 //       //  miss.push(arr.indexOf(i))
 //      }
 //    }
-  //  console.log(miss)
+//  console.log(miss)
 
 
 //duplicate remove
@@ -293,15 +293,54 @@ let friends = [{
 // console.log(newarr);
 
 //difference
-const arr = [4, 2, 6, 9, 7];
-const arr2 = [2, 7, 9];
-let newArr = []
-for (const a of arr) {
-  if (!arr2.includes(a)) {
-    newArr.push(a)
-  }
-}
-console.log(newArr)
+// const arr = [4, 2, 6, 9, 7];
+// const arr2 = [2, 7, 9];
+// let newArr = []
+// for (const a of arr) {
+//   if (!arr2.includes(a)) {
+//     newArr.push(a)
+//   }
+// }
+// console.log(newArr)
+
+
+// value equal to index value
+
+// let ind = [15, 2, 45, 12, 7];
+// let newarr = [];
+// for (let i = 1; i < ind.length; i++) {
+//   if (ind[i - 1] == i) {
+//     newarr.push(ind[i - 1]);
+//   console.log(newarr)
+//   }
+// }
+// let result = ind.filter((value, index) => value === index);
+
+// console.log(result); // Output: [2, 7]
+
+
+//swaping the values
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+//   // [arr[2], arr[5]] = [arr[5], arr[2]]
+//   //changing the indexing
+//   N = 8, K = 3
+
+// let temp = arr[K-1]
+// //arr[K-1] 3-1 = 2 so grabed the second position
+// //arr[N-K] 8-3 = 5 so grabed the fifth position
+// arr[K-1] = arr[N-K] 
+// arr[N-K] = temp;
+
+// console.log(arr)
+//   // console.log(arr[K])//4 indexing --
+//   // console.log(arr[N])//undefined noindexing --
+
+
+
+
+
+
+
 
 
 
