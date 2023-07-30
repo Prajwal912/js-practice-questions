@@ -336,6 +336,71 @@ let friends = [{
 //   // console.log(arr[N])//undefined noindexing --
 
 
+//remove the largest and sec lar from an array
+
+// let arr = [1, 9, 7, 10, 14, 5, 4, 15];
+// let max = Math.max(...arr)
+// let secondLar = arr.sort((a, b) =>
+//   b - a
+//   )
+  
+//  let min = secondLar[1]
+
+//   let newArr = []
+//   let filter = arr.filter((val, _) => {
+//       if (!val.toString().includes(max.toString()) && !val.toString().includes(min.toString())) {
+//      newArr.push(val)
+//    }
+//   }
+// )
+// newArr.sort( (a,b) => a-b)
+// console.log(newArr)
+
+
+//////second way
+   
+// let max = Math.max(...arr)
+// let sLar = -1
+
+//  for(let a of arr){
+//   if(a < max && a > sLar){
+//      sLar = a
+//   }
+//  }
+
+//   let newArr = []
+//   let filter = arr.filter((val, _) => {
+//       if (val < max && val < sLar) {
+//      newArr.push(val)
+//    }
+//   }
+// )
+// newArr.sort( (a,b) => a-b)
+// return newArr
+
+
+////return a perfetc array --- slice used because it creates a shallow copy of an array and same gfoes goes with ...destr
+
+// let arr = [1, 2, 3, 2, 1,9];
+
+//either slice
+// const reversedNumbers = arr.slice().reverse();
+
+//or spread operator
+// const reversedNumbers = [...arr].reverse();
+// console.log(reversedNumbers)
+// console.log(arr)
+
+// if(reversedNumbers === arr){
+//   console.log("perfect array")
+// }else{
+//  console.log(" non perfect array")
+// }
+
+// third way
+/// used to reverse the array
+// console.log(arr[n - i - 1]); 
+
 
 
 
